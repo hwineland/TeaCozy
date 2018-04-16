@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  position: fixed;
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+nav {
+  display: inline-flex;
+}
+
+nav span {
+  color: white;
+}
