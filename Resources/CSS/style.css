@@ -18,6 +18,8 @@ header {
 }
 
 header img {
+  display: in-line flex;
+  flex-shrink: 3;
   padding-left: 10px;
   padding-right: 700px;
   height: 50px;
@@ -25,12 +27,39 @@ header img {
 }
 nav {
   display: inline-flex;
+  flex-shrink: 1;
   justify-content: space-around;
   align-items: center;
 }
-
 nav span a {
   color: seashell;
   text-decoration: underline;
   padding-left: 10px;
+}
+
+/* Tea of the Month */
+.month {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+}
+
+.item span {
+  padding-top: 10px;
 }
