@@ -39,15 +39,18 @@ nav span a {
 
 /* Tea of the Month */
 .month {
+  display: block;
+  width: 1000px;
+  height: 770px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.month-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-
 }
 .item {
   display: flex;
