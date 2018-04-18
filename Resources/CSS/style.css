@@ -36,6 +36,29 @@ nav span a {
   text-decoration: underline;
   padding-left: 10px;
 }
+/*Mission*/
+.mission {
+  display: block;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+.mission-container {
+  display: block;
+  height: 10px;
+  width: 1200px;
+  padding-top: 300px;
+}
+
+.mission-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+
+}
 
 /* Tea of the Month */
 .month {
