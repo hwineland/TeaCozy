@@ -105,6 +105,7 @@ nav span a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 15px 40px;
   align-items: center;
 }
 
