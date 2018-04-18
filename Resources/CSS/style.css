@@ -95,3 +95,14 @@ nav span a {
   background-color: black;
   opacity: 1;
 }
+
+/* Footer */
+footer {
+  text-align: center;
+  height: 200px;
+}
+
+.copyright {
+  padding-left: 20px;
+  text-align: left;
+}
