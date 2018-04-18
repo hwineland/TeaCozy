@@ -66,3 +66,32 @@ nav span a {
 .item span {
   padding-top: 10px;
 }
+
+/*Locations*/
+.locations {
+  display: block;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 70px;
+  opacity: 0.9;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.locations-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.locations-item {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 275px;
+  width: 300px;
+  margin: 15px 40;
+  background-color: black;
+  opacity: 1;
+}
